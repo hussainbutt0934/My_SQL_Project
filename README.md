@@ -1,6 +1,7 @@
 # My_SQL_Project
 This project is a relational database system for managing a bookstore, built using PostgreSQL (or compatible SQL). It includes table creation, data queries, and analytical insights useful for managing books, customers, and orders
 ## Database Table
+-<a href= "https://github.com/hussainbutt093/My_SQL_Project/blob/main/My_SQL_Project.sql">view dashboard<a/>
 Books – Stores book details like title, author, genre, price, stock, etc.
 
 Customers – Holds customer information including name, email, location.
