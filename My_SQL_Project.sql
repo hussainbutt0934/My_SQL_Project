@@ -146,14 +146,7 @@ FROM Books b
 LEFT JOIN orders o ON b.book_id = b. book_id
 GROUP BY b.book_id;
 
- /* Project: Bookstore Sales and Customer Analytics using SQL
-
-Designed and normalized 3 core tables (Books, Customers, Orders)
-
-Wrote 18+ queries for sales, customer behavior, and inventory insights
-
-Included advanced revenue analysis, customer segmentation, and order trend analytics
-*/ 
+ 
 
 
  
