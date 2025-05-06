@@ -1,20 +1,20 @@
 # My_SQL_Project
-This project is a relational database system for managing a bookstore, built using PostgreSQL (or compatible SQL). It includes table creation, data queries, and analytical insights useful for managing books, customers, and orders
+This is a relational database system for handling a bookstore, implemented using PostgreSQL (or equivalent SQL). It involves table creation, querying data, and analytical information helpful for handling books, customers, and orders
 ## Database Table
 -<a href= "https://github.com/hussainbutt093/My_SQL_Project/blob/main/My_SQL_Project.sql">view dashboard<a/>
-Books – Stores book details like title, author, genre, price, stock, etc.
+Books – Stores book information such as title, author, genre, price, inventory, etc.
 
-Customers – Holds customer information including name, email, location.
+Customers – Stores customer data including name, email, location.
 
-Orders – Contains order records linking books and customers with quantity and total price.
-# Sample analysis Question covered 
-What is the most popular book genre?
+Orders – Stores order history mapping books and customers to quantity and total cost.
+# Sample analysis Question addressed
+What is the most popular genre of books?
 
-Who are the top 3 customers by total spending?
+Which are the top 3 spenders overall?
 
-Which book generated the highest sales revenue?
+Which book brought in the maximum sales revenue?
 
-What is the average price of books in each genre?
+What is the average price per book of every genre?
 ## Key features & Quaries
 Inventory Management
 
@@ -46,8 +46,6 @@ Advanced SQL Usage
 
 JOINs
 
-Aggregation (SUM, AVG, COUNT)
 
-Filtering by dates
 
-Grouping and sorting
+
