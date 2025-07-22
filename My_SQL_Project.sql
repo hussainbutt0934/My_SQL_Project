@@ -31,11 +31,24 @@ CREATE TABLE Orders (
     Total_Amount NUMERIC(10, 2)
 );
 -- Import data into Books table.
-SELECT * FROM Books;
+COPY 
+books (Book_ID, Title, Author, Genre, Publishded_Year, Price, Stock)
+FROM ‪'‪D:/Dashbaords/Books.csv.csv'
+DELIMITER','
+CSV HEADER;
+
 --Import data into Customers table.
-SELECT * FROM Customers;
+COPY 
+customers (Customer_ID, Name, Email, Phone, City, Country)
+FROM'‪D:\Dashbaords\Customers.csv'
+DELIMITER','
+CSV HEADER;
 --Import data into orders table.
-SELECT * FROM Orders;
+COPY
+orders (order_id, customer_id, book_id, order_date, quantity, total_amount)
+FROM '‪D:\Dashbaords\Orders (1).csv'
+DELIMITER ','
+CSV HEADER;
 
 
 -- Retrieve all the books in the 'FICION ' genre.
