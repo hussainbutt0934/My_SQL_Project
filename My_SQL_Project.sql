@@ -30,26 +30,16 @@ CREATE TABLE Orders (
     Quantity INT,
     Total_Amount NUMERIC(10, 2)
 );
--- Import data into Books table.
-COPY 
-books (Book_ID, Title, Author, Genre, Publishded_Year, Price, Stock)
-FROM ‪'‪D:/Dashbaords/Books.csv.csv'
-DELIMITER','
-CSV HEADER;
+--  Direct Import data into Books table in PostgreSQL.
 
---Import data into Customers table.
-COPY 
-customers (Customer_ID, Name, Email, Phone, City, Country)
-FROM'‪D:\Dashbaords\Customers.csv'
-DELIMITER','
-CSV HEADER;
---Import data into orders table.
-COPY
-orders (order_id, customer_id, book_id, order_date, quantity, total_amount)
-FROM '‪D:\Dashbaords\Orders (1).csv'
-DELIMITER ','
-CSV HEADER;
+SELECT * FROM books;
 
+-- Direct Import data into Customers table in PostgreSQL.
+
+SELECT * FROM customers;
+-- Direct Import data into orders table in PostgreSQL.
+
+SELECT * FROM orders;
 
 -- Retrieve all the books in the 'FICION ' genre.
 
